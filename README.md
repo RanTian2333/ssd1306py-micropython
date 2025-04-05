@@ -108,7 +108,11 @@ lcd.show()
 ### 显示汉字
 汉字字库较大，单一字号的字库就需要几M字节，所以没有放在库中。需要自己将需要显示的汉字做成字库传入到库中。
 
-制作字库可以使用工具PCtoLCD2002，[百度网盘下载链接](https://pan.baidu.com/s/1gc5swTKB7iuFa7swJrg_Jg)，提取码：z4tf
+制作字库：
+
+1.使用提供的Dot_Matrix_Generator.py文件生成
+
+2.可以使用工具PCtoLCD2002，[百度网盘下载链接](https://pan.baidu.com/s/1gc5swTKB7iuFa7swJrg_Jg)，提取码：z4tf
 
 使用方法可参考：[如何使用PCtoLCD2002取模（汉字、ASCII字符集）](https://blog.csdn.net/qq_41359157/article/details/106174897)
 
